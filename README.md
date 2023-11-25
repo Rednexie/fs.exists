@@ -1,6 +1,6 @@
 ```js
 
-const fs = require("./fs.js")
+const fs = require("./fs")
 fs.exists("./file", function(err, data){
   //if(err) console.error(err)
   if(data){
