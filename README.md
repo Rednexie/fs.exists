@@ -7,5 +7,9 @@ fs.exists("./file", function(err, data){
     console.log("The file exists")
     process.exit(0)
   }
+  else{
+    console.log("The file doesn't exist.")
+    process.exit(1)
+  }
 })
 ```
